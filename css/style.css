@@ -1,0 +1,470 @@
+* {
+    margin: 0%;
+}
+
+@font-face {
+    font-family: "roboto slab";
+    src: url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+}
+
+h1 {
+    text-align: center;
+    color: rgb(244, 244, 244);
+    background-color: rgb(255, 182, 193);
+    height: 80px;
+    font-size: 80px;
+}
+
+h1 a {
+    text-align: center;
+    color: rgb(244, 244, 244);
+    background-color: rgb(255, 182, 193);
+    height: 80px;
+    font-size: 80px;
+}
+
+body {
+    font-family: "roboto slab";
+}
+
+h2 {
+    text-align: center;
+    font-size: x-small;
+    height: 25px;
+    color: rgb(251, 251, 251);
+    background-color: rgb(255, 182, 193);
+}
+
+.menu ul {
+    background-color: rgb(255, 0, 170);
+    text-align: center;
+    font-size: small;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    padding-right: 15px;
+}
+
+.contenedor1 img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    max-width: 100%;
+}
+
+.eslogan p {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 25px;
+    background-color: rgb(255, 0, 170);
+    color: white;
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor2 img {
+    right: 300px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    gap: 200px;
+}
+
+.botones button {
+    background-color: rgb(255, 182, 193);
+    background-position-x: center;
+    border: none;
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 155px;
+    width: 150px;
+    height: 50px;
+}
+
+.principal p {
+    background-color: rgb(255, 182, 193);
+    text-align: left;
+    color: white;
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.principal img {
+    right: 300px;
+    height: 150px;
+    margin-top: -400px;
+    margin-left: 270px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: rgb(255, 182, 193);
+    color: white;
+    font-size: 10px;
+    padding: 0px 15px;
+    text-align: center;
+}
+
+.redes div {
+    margin-right: 5px;
+}
+
+.seccion3 {
+    display: flex;
+    gap: 150px;
+}
+
+.seccion3 div {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    font-size: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    text-align: right;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.contenedor3 img {
+    right: 400px;
+    height: 400px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.video {
+    margin-left: 300px;
+    margin-top: 25px;
+}
+
+.contenedor4 img {
+    right: 400px;
+    height: 400px;
+    margin-right: 100px;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+.contenedor5 img {
+    right: 400px;
+    height: 400px;
+    margin-right: 100px;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+.textosummary {
+    font-size: large;
+    color: rgb(255, 0, 170);
+    text-align: center;
+}
+
+.contenedor6 img {
+    right: 400px;
+    height: 400px;
+    margin-right: 80px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.contenedor7 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.contenedor7 img {
+    right: 400px;
+    height: 400px;
+    margin-right: 80px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.boton7 {
+    display: grid;
+    justify-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.boton7 button {
+    background-color: rgb(255, 182, 193);
+    border: none;
+    color: red;
+    width: 150px;
+    height: 50px;
+}
+
+.contenedor8 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.contenedor8 img {
+    right: 400px;
+    height: 400px;
+    margin-right: 80px;
+    margin-left: 120px;
+}
+
+.contenedor9 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.contenedor9 img {
+    height: 500px;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-right: 80px;
+    margin-left: 220px;
+}
+
+.contenedor10 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.contenedor10 img {
+    right: 400px;
+    height: 400px;
+    margin-right: 80px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+@media (min-width:600px) and (max-width:899px) {
+
+    .contenedor2 img {
+        right: 600px;
+        height: 300px;
+    }
+
+    .principal p {
+        font-size: 15px;
+    }
+
+    .principal img {
+        margin-left: 450px;
+    }
+
+    .seccion3 div {
+        width: 200px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+
+    .contenedor7 {
+        width: 65%;
+    }
+
+    .contenedor7 img {
+        right: 190px;
+        height: 190px;
+    }
+
+    .boton7 button {
+        width: 60px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .contenedor8 {
+        width: 65%;
+    }
+
+    .contenedor8 img {
+        right: 180px;
+        height: 180px;
+    }
+
+    .botones {
+        gap: 15px;
+    }
+
+    .botones button {
+        margin-left: none;
+        width: 60px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .contenedor9 {
+        width: 65%;
+    }
+
+    .contenedor9 img {
+        height: 200px;
+        margin-left: 160px;
+    }
+
+    .contenedor10 {
+        width: 65%;
+    }
+
+    .contenedor10 img {
+        height: 190px;
+    }
+
+}
+
+@media (min-width:900px) {
+
+    .contenedor2 img {
+        right: 1000px;
+        height: 500px;
+        margin-right: 35px;
+    }
+
+    .menu ul {
+        font-size: x-large;
+    }
+
+    .eslogan p {
+        font-size: 80px;
+    }
+
+    .principal p {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .principal img {
+        right: 500px;
+        height: 250px;
+        margin-top: -450px;
+        margin-left: 1000px;
+        margin-bottom: none;
+    }
+
+    footer {
+        font-size: large;
+        padding: 0px 35px;
+    }
+
+    .redes div {
+        font-size: large;
+    }
+
+    .seccion3 {
+        gap: 20px;
+    }
+
+    .seccion3 div {
+        gap: 20px;
+        width: 800px;
+        font-size: large;
+    }
+
+    footer p {
+        font-size: 30px;
+    }
+
+}
+
+@media (min-width:390px) and (max-width:598px) {
+
+    .contenedor7 {
+        width: 100%;
+    }
+
+    .contenedor7 img {
+        right: 120px;
+        height: 120px;
+        margin-right: 0%;
+        margin-left: 25%;
+    }
+
+    .boton7 button {
+        width: 45px;
+        height: 22px;
+        font-size: 8px;
+    }
+
+    .contenedor8 {
+        width: 95%;
+        justify-content: center;
+        justify-items: center;
+        gap: 9px;
+    }
+
+    .contenedor8 img {
+        right: 120px;
+        height: 120px;
+        margin-right: none;
+        margin-left: none;
+    }
+
+    .botones {
+        justify-items: center;
+        gap: 50px;
+    }
+
+    .botones button {
+        margin-left: 70px;
+        width: 45px;
+        height: 22px;
+        font-size: 8px;
+    }
+
+    .contenedor9 {
+        width: 100%;
+    }
+
+    .contenedor9 img {
+        height: 140px;
+        margin-left: 70px;
+    }
+
+    .contenedor10 {
+        width: 100%;
+    }
+
+    .contenedor10 img {
+        height: 120px;
+        right: 120px;
+        margin-right: 0%;
+        margin-left: 25%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
