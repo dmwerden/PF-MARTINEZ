@@ -1,0 +1,555 @@
+@media (min-width:600px) and (max-width:899px) {
+
+    .contenedor2 img {
+        right: 600px;
+        height: 250px;
+    }
+
+    .principal p {
+        font-size: 15px;
+    }
+
+    .principal img {
+        margin-left: 450px;
+        margin-top: -250px;
+    }
+
+    .seccion3 div {
+        width: 200px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+
+    .contenedor7 {
+        grid-template-columns: repeat(2, auto);
+        align-items: center;
+    }
+
+    .contenedor7 img {
+        right: 300px;
+        height: 300px;
+        margin-left: 30px;
+    }
+
+    .prueba1 button {
+        margin-left: 50px;
+    }
+
+    .prueba2 button {
+        margin-left: 50px;
+    }
+
+    .prueba3 button {
+        margin-left: 50px;
+    }
+
+    .prueba4 button {
+        margin-left: 50px;
+    }
+
+    .prueba5 button {
+        margin-left: 50px;
+    }
+
+    .prueba6 button {
+        margin-left: 50px;
+    }
+
+    .prueba7 button {
+        margin-top: -10px;
+        background-position-x: none;
+        margin-left: -30px;
+    }
+
+    .contenedor9 {
+        grid-template-columns: repeat(2, auto)
+    }
+
+    .contenedor9 img {
+        right: 300px;
+        height: 300px;
+        margin-left: 40px;
+    }
+
+    .contenedor10 {
+        grid-template-columns: repeat(2, auto)
+    }
+
+    .contenedor10 img {
+        right: 300px;
+        height: 300px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .contenedor10 button {
+        margin-top: 10px;
+    }
+
+    .desc p {
+        font-size: 25px;
+    }
+
+    .contenedor13 {
+        grid-template-columns: 1fr;
+    }
+
+    .contenedor13 img {
+        margin-left: 160px;
+        margin-bottom: 10px;
+    }
+
+    .contenedor14 {
+        grid-template-columns: 50% 50%;
+    }
+
+    .contenedor14 img {
+        margin-left: 20px;
+    }
+
+    .contenedor14 button {
+        margin-left: 90px;
+    }
+
+    .implook {
+        grid-template-columns: 1fr;
+    }
+
+    .implook img {
+        height: 400px;
+        margin-left: 160px;
+    }
+
+    .look05 {
+        grid-template-columns: 50% 50%;
+    }
+
+    .look05 img {
+        height: 400px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .contenedor15 {
+        grid-template-columns: 50% 50%;
+    }
+
+    .contenedor15 img {
+        margin-left: 10px;
+    }
+
+    .contenedor15 button {
+        margin-left: 30px;
+    }
+
+    .contenedor16 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .contenedor16 img {
+        right: 300px;
+        height: 300px;
+        margin-left: 40px;
+    }
+
+    .contenedor16 button {
+        margin-left: 60px;
+    }
+
+
+    .ropa01 {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .ropa01 img {
+        width: 280px;
+        margin-left: 10px;
+        margin-bottom: 40px;
+    }
+
+    .contenedor11 {
+        grid-template-columns: repeat(2, auto)
+    }
+
+    .contenedor11 img {
+        height: 400px;
+        margin-left: 20px;
+        right: 10px;
+    }
+
+    .ropa10 {
+        grid-template-columns: repeat(2, auto)
+    }
+
+    .ropa10 img {
+        width: 280px;
+        margin-left: 10px;
+    }
+
+
+    .contenedor12 {
+        grid-template-columns: repeat(2, auto)
+    }
+
+    .contenedor12 img {
+        margin-left: 20px;
+    }
+
+    .contenedor12 button {
+        margin-left: 50px;
+    }
+
+    .contenedor3 {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .contenedor3 img {
+        margin-left: 40px;
+        height: 300px;
+    }
+
+    .contenedor3 button {
+        margin-left: 80px;
+    }
+
+    .video iframe {
+        width: 260px;
+        height: 500px;
+        margin-top: -400px;
+        margin-left: 20px;
+    }
+
+
+    .contenedor4 {
+        grid-template-columns: repeat(2, auto)
+    }
+
+    .contenedor4 img {
+        height: 300px;
+        margin-left: 40px;
+    }
+
+    .contenedor4 button {
+        margin-left: 80px;
+    }
+
+    .contenedor6 {
+        grid-template-columns: repeat(2, auto)
+    }
+
+    .contenedor6 img {
+        height: 300px;
+        margin-left: 30px;
+    }
+
+    .contenedor6 button {
+        margin-left: -30px;
+    }
+
+}
+
+@media (min-width:900px) {
+
+    .contenedor2 img {
+        right: 1000px;
+        height: 500px;
+        margin-right: 35px;
+    }
+
+    .menu ul {
+        font-size: x-large;
+    }
+
+    .eslogan p {
+        font-size: 80px;
+    }
+
+    .principal p {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .principal img {
+        right: 500px;
+        height: 250px;
+        margin-top: -350px;
+        margin-left: 1000px;
+        margin-bottom: none;
+    }
+
+    footer {
+        font-size: large;
+        padding: 0px 35px;
+    }
+
+    .redes div {
+        font-size: large;
+    }
+
+    .seccion3 {
+        gap: 20px;
+    }
+
+    .seccion3 div {
+        gap: 20px;
+        width: 800px;
+        font-size: large;
+    }
+
+    footer p {
+        font-size: 30px;
+    }
+
+}
+
+@media (min-width:390px) and (max-width:598px) {
+
+    .contenedor7 {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .contenedor7 img {
+        right: 200px;
+        height: 200px;
+        margin-left: 40px;
+        margin-right: 30px;
+    }
+
+    .prueba1 button {
+        @include chispas;
+    }
+
+    .prueba2 button {
+        @include chispas;
+    }
+
+    .prueba3 button {
+        @include chispas;
+    }
+
+    .prueba4 button {
+        @include chispas;
+    }
+
+    .prueba5 button {
+        @include chispas;
+    }
+
+    .prueba6 button {
+        @include chispas;
+    }
+
+    .prueba7 button {
+        @include chispas;
+    }
+
+    .contenedor9 {
+        grid-template-columns: repeat(2, auto)
+    }
+
+    .contenedor9 img {
+        height: 200px;
+        margin-left: 20px;
+    }
+
+    .contenedor10 {
+        grid-template-columns: repeat(2, auto)
+    }
+
+    .contenedor10 img {
+        height: 200px;
+        right: 200px;
+        margin-right: 0%;
+        margin-left: 25%;
+        margin-bottom: 10px;
+    }
+
+    .desc p {
+        font-size: 20px;
+    }
+
+    .contenedor16 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .contenedor16 img {
+        right: 250px;
+        height: 250px;
+        margin-left: 10px;
+    }
+
+    .contenedor16 button {
+        margin-left: 20px;
+    }
+
+
+    .contenedor13 {
+        grid-template-columns: 1fr;
+    }
+
+    .contenedor13 img {
+        margin-left: 100px;
+        margin-bottom: 10px;
+        height: 300px;
+    }
+
+    .contenedor14 {
+        grid-template-columns: repeat(2, auto)
+    }
+
+    .contenedor14 img {
+        margin-left: 40px;
+        margin-right: 10px;
+        height: 200px;
+    }
+
+    .contenedor14 button {
+        @include chispas;
+    }
+
+    .implook {
+        grid-template-columns: 1fr;
+    }
+
+    .implook img {
+        height: 350px;
+        margin-left: 100px;
+    }
+
+    .look05 {
+        grid-template-columns: repeat(2, auto)
+    }
+
+    .look05 img {
+        height: 200px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    .contenedor15 {
+        grid-template-columns: repeat(2, auto)
+    }
+
+    .contenedor15 img {
+        margin-left: 10px;
+        height: 200px;
+    }
+
+    .contenedor15 button {
+        width: 55px;
+        height: 30px;
+        font-size: 10px;
+        margin-left: 20px;
+    }
+
+    .ropa01 {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .ropa01 img {
+        width: 190px;
+        margin-left: 2px;
+        margin-bottom: 30px;
+    }
+
+    .contenedor11 {
+        grid-template-columns: repeat(2, auto)
+    }
+
+    .contenedor11 img {
+        height: 200px;
+        margin-left: 40px;
+        right: 10px;
+    }
+
+    .contenedor11 button {
+        @include chispas;
+    }
+
+    .ropa10 {
+        grid-template-columns: repeat(2, auto)
+    }
+
+    .ropa10 img {
+        width: 190px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .contenedor12 {
+        grid-template-columns: repeat(2, auto)
+    }
+
+    .contenedor12 img {
+        height: 200px;
+        margin-left: 20px;
+    }
+
+    .contenedor12 button {
+        width: 55px;
+        height: 30px;
+        font-size: 10px;
+        margin-left: 50px;
+    }
+
+    .contenedor3 {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .contenedor3 img {
+        margin-left: 10px;
+        height: 200px;
+    }
+
+    .contenedor3 button {
+        width: 55px;
+        height: 30px;
+        font-size: 10px;
+        margin-left: 50px;
+    }
+
+    .video iframe {
+        width: 200px;
+        height: 400px;
+        margin-top: -280px;
+        margin-left: -120px;
+    }
+
+
+    .contenedor4 {
+        grid-template-columns: repeat(2, auto)
+    }
+
+    .contenedor4 img {
+        height: 200px;
+        margin-left: 10px;
+    }
+
+    .contenedor4 button {
+        width: 55px;
+        height: 30px;
+        font-size: 10px;
+        margin-left: 60px;
+    }
+
+    .contenedor6 {
+        grid-template-columns: repeat(2, auto)
+    }
+
+    .contenedor6 img {
+        height: 200px;
+        margin-left: 10px;
+    }
+
+    .contenedor6 button {
+        width: 55px;
+        height: 30px;
+        font-size: 10px;
+        margin-left: -50px;
+    }
+
+}
